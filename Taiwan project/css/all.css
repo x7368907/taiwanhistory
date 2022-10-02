@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+header{
+    background-color: #c4c4c4;
+    width: 100%;
+    padding: 1rem;
+}
+.headertitle{
+    font-size: 2.5rem;
+}
+.headertext{
+    font-size: 1rem;
+}
+nav{
+    background-color: #3b383c;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding-left: 1rem;
+}
+nav ul li{
+    padding: 0.5rem 0.75rem ;
+}
+nav ul li a{
+    color: rgb(192, 192, 192);
+    text-decoration: none;
+    font-size: 1.25rem;
+    transition: all 0.25s ease;
+}
+nav ul li a:hover{
+    color:white
+}
+.active{
+    color:white
+}
+main{
+    width: 100%;
+    display: flex;
+}
+.left,.right{
+    padding: 1.5rem;
+}
+.right{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right h4{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.right p{
+    margin: 1rem 0rem;
+}
+/* index.html end */
+.content h2{
+    margin: 1rem 1.5rem 0 1.5rem;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.content p{
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+}
+span{
+    display:block;
+    color:red;
+    font-size: 20px;
+    text-align: center;
+}
+.content ul{
+    margin: 0rem 0rem 2.5rem 2.5rem;
+    list-style-type: decimal;
+}
+/* second.html end */
+.text h2{
+    margin: 1rem 1.5rem 2rem 1.5rem;
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.text p{
+    margin: 0rem 1.5rem 1.5rem 1.5rem;
+}
+.text ul{
+    display: flex;
+    list-style-type: none;
+}
+.text li{
+    margin: 2rem;
+}
+/* third.html end */
+.author{
+    margin: 1.5rem;
+    display: flex;
+}
+.author img{
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+    margin: auto;
+    margin: 1rem;
+}
+.container{
+    margin: 1rem 1.5rem;
+}
+.container h2{
+    border-bottom: 1px solid black;
+    font-weight: bold;
+}
+.container p{
+    line-height: 25px;
+    margin-bottom: 1.5rem;
+}
+.container h3{
+    font-weight: bold;
+}
